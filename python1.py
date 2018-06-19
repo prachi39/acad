@@ -1,4 +1,3 @@
-a="prachi"
-b="singh"
-print(a,b)
-
+a=int(input())
+b=int(input())
+print(a/b)
