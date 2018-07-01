@@ -1,0 +1,5 @@
+Consumer_Key ="bab1Nul3LqPIpzyUsIcaFhJNi"
+Consumer_Secret ="rMzT6SaYxe5jHRNxWOPyMhmp1Jidxr3jzl6AwbZd83Cf6ducDo"
+
+Access_Token="1011804384332693505-PcLjWkM4gbXF2AZJuBudxgYf5BCFMJ"
+Access_Secret="mUXRTRQZ7YGpb4nfqfldC0RqnfkbBcu7MzblK3mNx8M1A"
