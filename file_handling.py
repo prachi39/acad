@@ -26,10 +26,18 @@ with open('test.txt',encoding="utf8") as f:
     for line1, line2 in zip(f, f1):
       print(line1+line2)
 
-
 #5
-
-random=ran
+import random
+with open("test.txt","w")as f:
+    for i in range(int(input("how many random numbers"))):
+        line=str(random.randint(1,100))
+        f.writelines(line+'\n')
+        print(line)
+with open("test.txt")as f,open("test2.txt","w")as f1:
+    lines=f.read().splitlines()
+    lines.sort()
+    for l in lines:
+        f1.write(str(l)+'\n')
 
 
 
