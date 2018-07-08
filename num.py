@@ -24,11 +24,10 @@ print(matrix_mul)
 
 #4
 import numpy as np
-a=np.random.random(10,1)
+a=np.random.random((10,1))
 print(a)
 
 def func(x):
     return(1/(1+np.exp((-x))))
 result=np.apply_along_axis(func,0,a)
 print(result)
-
